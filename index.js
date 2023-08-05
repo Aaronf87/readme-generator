@@ -106,10 +106,23 @@ const readmePageContent = generateReadme(answers);
 // function writeToFile(fileName, data) {
 
 
-  fs.writeFile('readme.md', readmePageContent, (err) =>
+  fs.writeFile('./createdReadmes/README.md', readmePageContent, (err) =>
     err ? console.log(err) : console.log('Successfully created README.md!')
   );
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
